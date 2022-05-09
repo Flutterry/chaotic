@@ -1,0 +1,29 @@
+name: chaotic
+description: Flutter Package That Contains (Widgets, Services and Commons) classes and files
+version: 4.0.1
+homepage: https://github.com/Flutterry/chaotic.git
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bot_toast:
+  easy_localization:
+  easy_logger:
+  flutter_spinkit:
+  # Network
+  dio:
+  pretty_dio_logger: ^1.2.0-beta-1
+  country_code_picker:
+  platform_device_id:
+  package_info_plus:
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:

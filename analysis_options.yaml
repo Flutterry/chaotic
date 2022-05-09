@@ -1,0 +1,15 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    avoid_setters_without_getters: false
+    avoid_positional_boolean_parameters: false
+    sort_pub_dependencies: false
+    directives_ordering: false
+
+analyzer:
+  errors:
+    unused_import: warning
+
+  strong-mode:
+    implicit-casts: true
